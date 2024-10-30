@@ -8,6 +8,5 @@ Cloud Firewall (CFW) is a next-generation cloud-native firewall. It protects Int
 
    .. service_card::
       :service_type: cfw
-      :environment: internal
       :umn: This document provides detailed operation guidance of CFW to help you learn and use CFW.
       :api-ref: This document describes how to use application programming interfaces (APIs) to perform operations on CFW, such as querying and updating.
