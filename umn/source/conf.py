@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'cfw-umn.tex',
-     u'Cloud Firewall - User Guide',
+    u'Cloud Firewall - User Guide',
      u'OpenTelekomCloud', 'manual'),
 ]
 
