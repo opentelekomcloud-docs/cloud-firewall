@@ -110,7 +110,7 @@ html_copy_source = False
 latex_documents = [
     ('index',
      'cfw-api-ref.tex',
-     u'Cloud Firewall - API Reference',
+    u'Cloud Firewall - API Reference',
      u'OpenTelekomCloud', 'manual'),
 ]
 
