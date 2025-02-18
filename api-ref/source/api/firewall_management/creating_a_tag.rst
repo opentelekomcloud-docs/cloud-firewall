@@ -67,7 +67,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 Example Requests

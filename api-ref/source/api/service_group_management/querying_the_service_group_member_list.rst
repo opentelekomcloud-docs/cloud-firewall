@@ -123,7 +123,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 **Status code: 403**
@@ -133,7 +133,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 **Status code: 404**
@@ -143,7 +143,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 **Status code: 500**
@@ -153,7 +153,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 Example Requests

@@ -93,15 +93,19 @@ Response Parameters
 
 .. table:: **Table 6** records
 
-   ============ ======= =========================================
-   Parameter    Type    Description
-   ============ ======= =========================================
-   item_id      String  ID of an address group member.
-   name         String  Name of an address group member.
-   description  String  Description.
-   address_type Integer Address type: **0** (IPv4), **1** (IPv6).
-   address      String  Address information.
-   ============ ======= =========================================
+   +--------------+---------+-------------------------------------------------------------------+
+   | Parameter    | Type    | Description                                                       |
+   +==============+=========+===================================================================+
+   | item_id      | String  | ID of an address group member.                                    |
+   +--------------+---------+-------------------------------------------------------------------+
+   | name         | String  | Name of an address group member.                                  |
+   +--------------+---------+-------------------------------------------------------------------+
+   | description  | String  | Description.                                                      |
+   +--------------+---------+-------------------------------------------------------------------+
+   | address_type | Integer | Internet protocol type of an address: **0** (IPv4), **1** (IPv6). |
+   +--------------+---------+-------------------------------------------------------------------+
+   | address      | String  | Address information.                                              |
+   +--------------+---------+-------------------------------------------------------------------+
 
 **Status code: 400**
 
