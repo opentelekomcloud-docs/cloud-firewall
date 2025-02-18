@@ -84,14 +84,14 @@ Response Parameters
 Example Requests
 ----------------
 
-Enable or disable the basic patch and virtual patch of the engine on the user side. The following example shows how to enable the basic patch function for protected object 1530de8a-522d-4771-9067-9fa4e2f53b48 whose project ID is 14181c1245cf4fd786824efe1e2b9388.
+API used for toggling IPS. It is used to enable or disable the basic patch and virtual patch of the engine on the user side. The following example shows how to enable the virtual patch function for protected object 1530de8a-522d-4771-9067-9fa4e2f53b48 whose project ID is 14181c1245cf4fd786824efe1e2b9388.
 
 .. code-block::
 
    https://{Endpoint}/v1/14181c1245cf4fd786824efe1e2b9388/ips/switch?fw_instance_id=546af3f8-88e9-47f2-a205-2346d7090925&enterprise_project_id=default
 
    {
-     "ips_type" : 1,
+     "ips_type" : 2,
      "object_id" : "1530de8a-522d-4771-9067-9fa4e2f53b48",
      "status" : 1
    }

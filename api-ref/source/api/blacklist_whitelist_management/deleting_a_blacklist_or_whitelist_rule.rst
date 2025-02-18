@@ -65,12 +65,12 @@ Response Parameters
 
 .. table:: **Table 5** BlackWhiteListId
 
-   ========= ====== =========================
+   ========= ====== =============================================
    Parameter Type   Description
-   ========= ====== =========================
+   ========= ====== =============================================
    id        String Blacklist/Whitelist ID.
-   name      String Blacklist/Whitelist name.
-   ========= ====== =========================
+   name      String Blacklist/Whitelist name.Which is the Address
+   ========= ====== =============================================
 
 **Status code: 400**
 

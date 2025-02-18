@@ -65,12 +65,13 @@ Response Parameters
 
 .. table:: **Table 5** DeleteServiceItemResponseBodyData
 
-   ========= ====== ==========================
-   Parameter Type   Description
-   ========= ====== ==========================
-   id        String Service group member ID.
-   name      String Service group member name.
-   ========= ====== ==========================
+   +-----------+--------+--------------------------------------------------------------------------+
+   | Parameter | Type   | Description                                                              |
+   +===========+========+==========================================================================+
+   | id        | String | Service group member ID.                                                 |
+   +-----------+--------+--------------------------------------------------------------------------+
+   | name      | String | Service group member name,which is the source port and destination port. |
+   +-----------+--------+--------------------------------------------------------------------------+
 
 **Status code: 400**
 

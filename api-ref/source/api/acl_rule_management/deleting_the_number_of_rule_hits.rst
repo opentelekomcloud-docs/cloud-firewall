@@ -64,7 +64,7 @@ Response Parameters
    ========= ====== ===========
    Parameter Type   Description
    ========= ====== ===========
-   ``-``     String   
+   ``-``     String
    ========= ====== ===========
 
 **Status code: 400**

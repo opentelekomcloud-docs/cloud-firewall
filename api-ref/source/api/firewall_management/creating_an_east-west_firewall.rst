@@ -53,7 +53,7 @@ Request Parameters
    +=============================+===========+=============================================================================================+==========================================================================================================================================================================================================================================================================================================+
    | er_id                       | Yes       | String                                                                                      | ID of the associated enterprise router in the outbound direction, which can be obtained by calling the API for querying the enterprise router list of the Enterprise Router service. Find the enterprise router ID in **instances.id** (The period [.] is used to separate different levels of objects). |
    +-----------------------------+-----------+---------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | inspection_vpc_id           | No        | String                                                                                      | Traffic diversion VPC ID.                                                                                                                                                                                                                                                                                |
+   | inspection_vpc_id           | No        | String                                                                                      | Inspection VPC ID.                                                                                                                                                                                                                                                                                       |
    +-----------------------------+-----------+---------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
    | er_associated_subnet        | No        | :ref:`AssociatedSubnet <createeastwestfirewall__request_associatedsubnet>` object           | Subnet associated with an enterprise router.                                                                                                                                                                                                                                                             |
    +-----------------------------+-----------+---------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -96,7 +96,7 @@ Response Parameters
    +----------------+----------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+
    | er             | :ref:`ER <createeastwestfirewall__response_er>` object                                                         | Enterprise router information.                                     |
    +----------------+----------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+
-   | inspertion_vpc | :ref:`CreateEWFirewallInspectVpcResp <createeastwestfirewall__response_createewfirewallinspectvpcresp>` object | Information about the traffic diversion VPC.                       |
+   | inspertion_vpc | :ref:`CreateEWFirewallInspectVpcResp <createeastwestfirewall__response_createewfirewallinspectvpcresp>` object | Information about the inspection VPC.                              |
    +----------------+----------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------+
 
 .. _createeastwestfirewall__response_er:
@@ -115,18 +115,18 @@ Response Parameters
 
 .. table:: **Table 9** CreateEWFirewallInspectVpcResp
 
-   +------------+------------------+------------------------------------------------------+
-   | Parameter  | Type             | Description                                          |
-   +============+==================+======================================================+
-   | vpc_id     | String           | ID of a traffic diversion VPC.                       |
-   +------------+------------------+------------------------------------------------------+
-   | subnet_ids | Array of strings | Subnet ID list of the created traffic diversion VPC. |
-   +------------+------------------+------------------------------------------------------+
+   +------------+------------------+-----------------------------------------------+
+   | Parameter  | Type             | Description                                   |
+   +============+==================+===============================================+
+   | vpc_id     | String           | ID of a inspection VPC.                       |
+   +------------+------------------+-----------------------------------------------+
+   | subnet_ids | Array of strings | Subnet ID list of the created inspection VPC. |
+   +------------+------------------+-----------------------------------------------+
 
 Example Requests
 ----------------
 
-Under firewall 55b26ab5-e4b0-40e8-941c-a1778fe2a500 in project 09bb24e6f280d23d0f9fc0104b901480, create a firewall in enterprise router mode. The enterprise router ID is 0eb296a4-aa9b-493e-b58a-ce993a16edfc, the traffic diversion VPC is 0eb296a4-aa9b-493e-b58a-ce993a16edfd, the subnets associated with the firewall are fw-subnet and cfw-subnet, and the subnet associated with the enterprise router is er-subnet.
+Under firewall 55b26ab5-e4b0-40e8-941c-a1778fe2a500 in project 09bb24e6f280d23d0f9fc0104b901480, create a firewall in enterprise router mode. The enterprise router ID is 0eb296a4-aa9b-493e-b58a-ce993a16edfc, the inspection VPC is 0eb296a4-aa9b-493e-b58a-ce993a16edfd, the subnets associated with the firewall are fw-subnet and cfw-subnet, and the subnet associated with the enterprise router is er-subnet.
 
 .. code-block::
 

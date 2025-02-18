@@ -86,7 +86,7 @@ Response Parameters
    ========= ====== ===============
    Parameter Type   Description
    ========= ====== ===============
-   tag_id    String Rule ID.
+   tag_id    String Rule tag ID.
    tag_key   String Rule tag key.
    tag_value String Rule tag value.
    ========= ====== ===============
