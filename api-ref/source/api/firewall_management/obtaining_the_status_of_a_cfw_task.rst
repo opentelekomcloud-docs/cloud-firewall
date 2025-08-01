@@ -99,9 +99,9 @@ Return value of the API for obtaining the information about a pay-per-use firewa
 
    {
      "data" : {
-       "begin_time" : 1641370501000,
-       "end_time" : 1641370515000,
-       "id" : "f588ce71-e26c-400d-8981-f854355f6849",
+       "begin_time" : "2023-11-14 10:10:27 +0800",
+       "end_time" : "2023-11-14 10:15:46 +0800",
+       "id" : "7517d932-8e79-4273-a001-ceff74e121f7",
        "status" : "Success"
      }
    }
