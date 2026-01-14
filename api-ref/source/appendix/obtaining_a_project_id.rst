@@ -14,10 +14,10 @@ A project ID is required for some URLs when an API is called. To obtain a projec
 
 #. Click the username and choose **My Credential** from the drop-down list.
 
-   On the **My Credential** page, view project IDs in the project list.
+   On the displayed page, view project IDs in the project list.
 
 
-.. figure:: /_static/images/en-us_image_0218728478.jpg
+.. figure:: /_static/images/en-us_image_0277985093.jpg
    :alt: **Figure 1** Viewing project IDs
 
    **Figure 1** Viewing project IDs
